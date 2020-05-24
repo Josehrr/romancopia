@@ -12,6 +12,7 @@ function getRoleUserArray($mode, $id){
         '0' => 'Usuario Normal',
         '1' => 'Administrador',
     ];
+
     if(!is_null($mode)):
         return $roles;
     else:
@@ -25,6 +26,7 @@ function getRoleUserStatusArray($mode, $id){
         '1' => 'Verificado',
         '100' =>'Baneado'
     ];
+
     if(!is_null($mode)):
         return $status;
     else:
